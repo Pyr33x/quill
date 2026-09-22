@@ -1,8 +1,15 @@
 # Quill
 
-A small Rust library for **pub/sub topic matching** — hierarchical topics, MQTT-style wildcards (`+` / `#`), and a trie-backed concurrent registry.
+[![Crates.io](https://img.shields.io/crates/v/quill-pubsub.svg?style=flat-square)](https://crates.io/crates/quill-pubsub)
+[![Docs](https://img.shields.io/docsrs/quill-pubsub?style=flat-square)](https://docs.rs/quill-pubsub)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Rust Edition](https://img.shields.io/badge/edition-2024-orange?style=flat-square&logo=rust)](https://doc.rust-lang.org/edition-guide/rust-2024/)
+[![Build](https://img.shields.io/github/actions/workflow/status/Pyr33x/quill/ci.yml?branch=master&style=flat-square&logo=github&label=build)](https://github.com/Pyr33x/quill/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/Pyr33x/quill/ci.yml?branch=master&style=flat-square&logo=github&label=tests)](https://github.com/Pyr33x/quill/actions/workflows/ci.yml)
 
-Quill does **not** implement networking, wire protocols, persistence, or delivery queues. Use it as the matching core inside a broker or event system.
+A small Rust library for **pub/sub topic matching** — hierarchical topics, MQTT-style wildcards (`+` / `#`), and a concurrent trie-backed registry.
+
+No networking, wire protocols, persistence, or delivery queues. Quill is the matching core you embed in a broker or event system.
 
 ## Install
 
@@ -28,7 +35,7 @@ registry.fanout(&topic, &42_u32, |subscriber, payload| {
 });
 ```
 
-## API overview
+## API
 
 | Type | Role |
 |------|------|
@@ -38,4 +45,4 @@ registry.fanout(&topic, &42_u32, |subscriber, payload| {
 
 ## License
 
-Licensed under the Apache License, Version 2.0.
+Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
