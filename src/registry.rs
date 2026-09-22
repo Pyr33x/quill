@@ -260,7 +260,10 @@ mod tests {
     fn subscribe_and_match() {
         let r = Registry::new();
         r.subscribe(pat("sensors/+/temp"), "a");
-        assert_eq!(matched_set(&r, "sensors/kitchen/temp"), HashSet::from(["a"]));
+        assert_eq!(
+            matched_set(&r, "sensors/kitchen/temp"),
+            HashSet::from(["a"])
+        );
         assert!(matched_set(&r, "sensors/kitchen/humidity").is_empty());
     }
 
