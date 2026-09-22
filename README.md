@@ -1,7 +1,6 @@
 # Quill
 
 [![Crates.io](https://img.shields.io/crates/v/quill-pubsub.svg?style=flat-square)](https://crates.io/crates/quill-pubsub)
-[![Docs](https://img.shields.io/docsrs/quill-pubsub?style=flat-square)](https://docs.rs/quill-pubsub)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Rust Edition](https://img.shields.io/badge/edition-2024-orange?style=flat-square&logo=rust)](https://doc.rust-lang.org/edition-guide/rust-2024/)
 [![Build](https://img.shields.io/github/actions/workflow/status/Pyr33x/quill/ci.yml?branch=master&style=flat-square&logo=github&label=build)](https://github.com/Pyr33x/quill/actions/workflows/ci.yml)
