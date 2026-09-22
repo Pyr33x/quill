@@ -11,6 +11,7 @@ documentation = "https://docs.rs/quill-pubsub"
 keywords = ["pubsub", "mqtt", "topic", "matching", "trie"]
 categories = ["data-structures"]
 authors = ["Pyr33x <pyrexrj@gmail.com>"]
+exclude = ["assets/"]
 
 [lib]
 name = "quill"

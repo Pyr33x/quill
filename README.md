@@ -1,5 +1,7 @@
 # Quill
 
+![](assets/quill.jpg)
+
 [![Crates.io](https://img.shields.io/crates/v/quill-pubsub.svg?style=flat-square)](https://crates.io/crates/quill-pubsub)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Rust Edition](https://img.shields.io/badge/edition-2024-orange?style=flat-square&logo=rust)](https://doc.rust-lang.org/edition-guide/rust-2024/)
