@@ -1,9 +1,18 @@
 [package]
-name = "quill"
+name = "quill-pubsub"
 version = "0.1.0"
 edition = "2024"
 description = "Lightweight pub/sub topic-matching engine (MQTT-style wildcards, trie-backed registry)"
 license = "Apache-2.0"
 readme = "README.md"
+repository = "https://github.com/Pyr33x/quill"
+homepage = "https://github.com/Pyr33x/quill"
+documentation = "https://docs.rs/quill-pubsub"
+keywords = ["pubsub", "mqtt", "topic", "matching", "trie"]
+categories = ["data-structures"]
+authors = ["Pyr33x <pyrexrj@gmail.com>"]
+
+[lib]
+name = "quill"
 
 [dependencies]
