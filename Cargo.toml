@@ -1,0 +1,9 @@
+[package]
+name = "quill"
+version = "0.1.0"
+edition = "2024"
+description = "Lightweight pub/sub topic-matching engine (MQTT-style wildcards, trie-backed registry)"
+license = "Apache-2.0"
+readme = "README.md"
+
+[dependencies]
