@@ -4,6 +4,12 @@ A small Rust library for **pub/sub topic matching** — hierarchical topics, MQT
 
 Quill does **not** implement networking, wire protocols, persistence, or delivery queues. Use it as the matching core inside a broker or event system.
 
+## Install
+
+```bash
+cargo add quill-pubsub
+```
+
 ## Usage
 
 ```rust
