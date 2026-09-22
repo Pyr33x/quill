@@ -2,7 +2,7 @@
 
 use std::fmt;
 
-use crate::topic::{split_segments, ParseError, Topic, DEFAULT_DELIMITER};
+use crate::topic::{DEFAULT_DELIMITER, ParseError, Topic, split_segments};
 
 /// One segment of a [`Pattern`].
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]

@@ -15,4 +15,4 @@ mod topic;
 
 pub use pattern::{Pattern, Segment};
 pub use registry::Registry;
-pub use topic::{ParseError, Topic, DEFAULT_DELIMITER};
+pub use topic::{DEFAULT_DELIMITER, ParseError, Topic};
